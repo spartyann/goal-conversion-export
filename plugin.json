@@ -1,16 +1,20 @@
 {
   "name": "GoalConversionExport",
-  "description": "Provide an exporter for Google Ads and Facebook Ads",
-  "version": "0.1.0",
+  "description": "Ceci est un Fork de GoalConversionExportForkYT de Benjamin Tourman. Je le corrige des bugs et le mets à jour sur les versions 5 de Matomo",
+  "version": "0.2.0",
   "theme": false,
   "require": {
-    "matomo": ">=4.12.3-stable,<5.0.0-b1"
+    "matomo": ">=4.12.3-stable,<5.10.0"
   },
   "authors": [
     {
       "name": "Benjamin Tourman",
       "email": "tourman.benjamin@gmail.com"
-    }
+    },
+	{
+		"name": "Yann Tassy",
+		"email": "tassy.yann@gmail.com"
+	}
   ],
   "support": {
     "issues": "https://github.com/btourman/goal-conversion-export/issues",

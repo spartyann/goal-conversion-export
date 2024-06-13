@@ -40,6 +40,8 @@ class Controller extends \Piwik\Plugin\Controller
         return $this->renderTemplate('index');
     }
 
+
+	// https://mymatomo.com/index.php?module=GoalConversionExport&action=generateConversionExport&accessToken=xxxxxxxxxxxxxx
     public function generateConversionExport()
     {
         $model = new GoalConversionModel();

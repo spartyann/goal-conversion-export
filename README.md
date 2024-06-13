@@ -42,3 +42,6 @@ this valuable information into ad networks such as Google Ads and Meta Ads.
 
 GPL v3 or later
 
+
+
+# URL for EXPORT:  https://mymatomo.com/index.php?module=GoalConversionExport&action=generateConversionExport&accessToken=xxxxxxxxxxxxxx

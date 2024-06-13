@@ -55,7 +55,7 @@ HEAD;
         $conversionName = $goal['export_name'];
         $conversionValue = $this->getConversionValue($conversion['revenue'], $goal['revenu']);
         $conversionCurrency = $this->site['currency'];
-        $conversionTime = Date::factory($conversion['server_time'])->toString('Y-m-d H:i:s');
+        $conversionTime = Date::factory($conversion['server_time'])->toString('c');
 
         return <<<CONVERSION
 {$clickId},{$conversionName},{$conversionTime},{$conversionValue},{$conversionCurrency}

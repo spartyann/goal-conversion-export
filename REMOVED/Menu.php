@@ -20,7 +20,7 @@ use Piwik\Piwik;
 class Menu extends \Piwik\Plugin\Menu
 {
 
-    public function configureAdminMenu(MenuAdmin $menu)
+    /*public function configureAdminMenu(MenuAdmin $menu)
     {
         $idSite = Common::getRequestVar('idSite', 0, 'int');
 
@@ -35,5 +35,5 @@ class Menu extends \Piwik\Plugin\Menu
 
         // or create a custom category
         // $menu->addItem('CoreAdminHome_MenuManage', 'GoalConversionExport_MyUserItem', $this->urlForDefaultAction(), $orderId = 30);
-    }
+    }*/
 }
