@@ -7,6 +7,8 @@ GPL v3 or later
 
 # Manual adding Goal (for Google Ads)
 
+As the UI no longer works in Matomo V5 and the original plug-in hasn't been updated for a long time, I created this fork to keep my Matomo up to date. I haven't managed to fix the UI, so in the meantime here are the instructions for using it without the UI.
+
 ## Add Goal
 
 Goto database table xxxx_goal_conversion_export
