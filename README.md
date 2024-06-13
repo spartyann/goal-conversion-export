@@ -1,6 +1,34 @@
 # Matomo Goal Conversion Export Plugin
 
-## Description
+## License
+
+GPL v3 or later
+
+
+# Manual adding Goal (for Google Ads)
+
+## Add Goal
+
+Goto database table xxxx_goal_conversion_export
+
+| Parameter | content | Note |
+| :--------------- |:---------------| :-----|
+| access_token | Example: h2s6h5z2h6sd2g  | Used in export URL |
+| name | Choose a name for this export |  |
+| export_type | "google" or "facebook" |  |
+| description | Choose a description for this export" |  |
+| goals | ```[{"id_goal":"1","export_name":"<goal_name_1>","revenu":"null"},{"id_goal":"2","export_name":"<goal_name_1>","revenu":"null"}, ... ]``` | **id_goal**: ID of Goal, **export_name**: name in Google Ads |
+| day_to_export | put "1" if you want 1 import per days | |
+
+
+## URL for EXPORT:
+
+https://mymatomo.com/index.php?module=GoalConversionExport&action=generateConversionExport&accessToken=xxxxxxxxxxxxxx
+
+xxxxxxxxxxxxxx = Access token put in xxxx_goal_conversion_export
+
+
+# Description
 
 ### Overview
 
@@ -26,7 +54,7 @@ this valuable information into ad networks such as Google Ads and Meta Ads.
 - **Easy Integration**: Integrate the exported data effortlessly with Google Ads, Meta Ads, or any other advertising
   platform that supports the chosen export format.
 
-## How to Use
+# How to Use
 
 1. **Installation**: Install the Matomo Goal Conversion Exporter Plugin within your Matomo instance. Follow the
    installation instructions provided with the plugin.
@@ -37,11 +65,3 @@ this valuable information into ad networks such as Google Ads and Meta Ads.
 
 4. **Integration**: Import the exported data into your ad networks like Google Ads and Meta Ads, ensuring that your
    campaigns benefit from informed decision-making.
-
-## License
-
-GPL v3 or later
-
-
-
-# URL for EXPORT:  https://mymatomo.com/index.php?module=GoalConversionExport&action=generateConversionExport&accessToken=xxxxxxxxxxxxxx
