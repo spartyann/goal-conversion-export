@@ -1,4 +1,4 @@
-# Matomo Goal Conversion Export Plugin
+# Matomo Goal Conversion Export Plugin for Matomo V5 (beta testing)
 
 ## License
 
