@@ -11,7 +11,7 @@ As the UI no longer works in Matomo V5 and the original plug-in hasn't been upda
 
 ## Add Goal
 
-Goto database table xxxx_goal_conversion_export
+Goto database table xxxx_goal_conversion_export and add a export
 
 | Parameter | content | Note |
 | :--------------- |:---------------| :-----|
